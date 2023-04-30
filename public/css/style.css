@@ -1,15 +1,12 @@
-h1
+.mainarea
 {
     text-align: center;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    color: green;
+    border-bottom: 1px solid #e5e5e5;
 }
-body
+.mainarea .btn
 {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
+    padding: 14px 24px;
+    font-size: 21px;
+    background-color: green;
+    color: white;
 }

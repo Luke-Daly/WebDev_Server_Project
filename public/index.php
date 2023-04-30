@@ -1,5 +1,6 @@
 <?php include "templates/header.php"; ?>
     <div class="mainarea">
+        <link rel="stylesheet" href="css/style.css">
         <h2>Status: You are logged in  <?php echo $_SESSION['Username'];?> </h2>
 
         <form action="logout.php" method="post" name="Logout_Form" class="form-signin">
