@@ -6,8 +6,3 @@ function clean($data)
     $data = stripslashes($data);
     return ($data);
 }
-
-function pass($password)
-{
-
-}
