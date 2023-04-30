@@ -18,3 +18,23 @@ if($_SESSION['Active'] == false)
 </head>
 <body>
     <h1>Software Engineering and Testing</h1>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="register.php"><strong>Register</strong></a> - Add a user
+            </li>
+            <li>
+                <a href="search.php"><strong>Search</strong></a> - Search for a book
+            </li>
+            <li>
+                <a href="updateStock.php"><strong>Update</strong></a> - Update products
+            </li>
+            <li>
+                <a href="deleteStock.php"><strong>Delete</strong></a> - Delete products
+            </li>
+            <li>
+                <a href="cart.php"><strong>Cart</strong></a> - Shopping Cart
+            </li>
+        </ul>
+    </nav>
