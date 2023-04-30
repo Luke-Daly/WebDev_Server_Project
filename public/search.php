@@ -62,12 +62,13 @@ if (isset($_POST['submit']))
         > No results found for <?php echo clean($_POST['author']); ?>.
     <?php }
 } ?>
+<link rel="stylesheet" href="css/read.css"/>
 <h2>Find books based on Author</h2>
 
 <form method="post">
     <label for="author">Author</label>
     <input type="text" id="author" name="author">
-    <input type="submit" name="submit" value="View Results">
+    <br><br><input type="submit" name="submit" value="View Results">
 </form>
 
 <?php require "templates/footer.php"; ?>

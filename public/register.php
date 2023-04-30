@@ -34,6 +34,7 @@ if (isset($_POST['submit']) && $statement){
     echo $new_user['username']. ' successfully added';
 }
 ?>
+    <link rel="stylesheet" href="css/create.css"/>
     <h2>Add a user</h2>
     <form method="post">
         <label for="username">Username</label>

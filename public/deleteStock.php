@@ -34,6 +34,8 @@ catch(PDOException $error)
 }
 ?>
 <?php require "templates/header.php"; ?>
+    <link rel="stylesheet" href="css/delete.css"/>
+
     <h2>Delete Products</h2>
     <table>
         <thead>

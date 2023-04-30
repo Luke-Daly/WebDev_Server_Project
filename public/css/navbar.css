@@ -1,0 +1,33 @@
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li
+{
+    background-color: green;
+    border: 1px solid black;
+    color: white;
+    border-radius: 15px;
+    display: block;
+    flex: 1;
+    margin: .2rem;
+    padding: .2rem;
+    text-align: center;
+}
+nav a
+{
+    text-decoration: none;
+}
+nav a:hover
+{
+    color: white;
+    text-decoration: none;
+}
+
+a
+{
+    color: black;
+}

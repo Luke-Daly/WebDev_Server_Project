@@ -57,7 +57,7 @@ else
 <?php if (isset($_POST['submit']) && $statement) : ?>
     <?php echo clean($_POST['TITLE']); ?> successfully updated.
 <?php endif; ?>
-
+<link rel="stylesheet" href="css/create.css"/>
 <h2>Edit a Product</h2>
 
 <form method="post">
@@ -67,7 +67,7 @@ else
         ?>" value="<?php echo clean($value); ?>" <?php echo ($key === 'PRODUCTID' ?
             'readonly' : null); ?>>
     <?php endforeach; ?>
-    <input type="submit" name="submit" value="Submit">
+    <br><br><input type="submit" name="submit" value="Submit">
 </form>
 
 <?php require "templates/footer.php"; ?>

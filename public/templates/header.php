@@ -13,8 +13,9 @@ if($_SESSION['Active'] == false)
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Software Engineering and Testing</title>
-    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
     <h1>Software Engineering and Testing</h1>

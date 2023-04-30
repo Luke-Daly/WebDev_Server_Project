@@ -1,13 +1,15 @@
-label {
-    display: block;
-    margin: 5px 0;
+h1
+{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: green;
 }
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-td,
-th {
-    padding: 5px;
-    border-bottom: 1px solid #aaa;
+body
+{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
 }

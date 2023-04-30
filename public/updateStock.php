@@ -17,6 +17,7 @@ catch(PDOException $error)
 }
 ?>
 <?php require "templates/header.php"; ?>
+    <link rel="stylesheet" href="css/update.css"/>
     <h2>Update Products</h2>
     <table>
         <thead>
